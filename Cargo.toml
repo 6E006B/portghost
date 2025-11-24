@@ -1,0 +1,10 @@
+[package]
+name = "portghost"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pnet = { version = "*", features = ["std"] }
+clap = { version = "*", features = ["derive"] }
+ctrlc = "*" # For cleanup on Ctrl+C
+rand = "*"
